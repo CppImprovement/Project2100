@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +140,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Project2100.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainCharacter.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Pistol.cpp" />
+    <ClCompile Include="Rockets.cpp" />
+    <ClCompile Include="Shotgun.cpp" />
+    <ClCompile Include="Sniper.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="MainCharacter.h" />
+    <ClInclude Include="MainOpponent.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Pistol.h" />
+    <ClInclude Include="Rockets.h" />
+    <ClInclude Include="Shotgun.h" />
+    <ClInclude Include="Sniper.h" />
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

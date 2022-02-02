@@ -2,7 +2,8 @@
 
 Object::Object()
 {
-	m_name = "DefaultObjectName";
+	// m_name = "DefaultObjectName";
+	m_name = name;
 }
 
 Object::Object(char* name)

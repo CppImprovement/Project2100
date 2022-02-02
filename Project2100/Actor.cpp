@@ -12,8 +12,13 @@ void Actor::print()
 	std::cout << m_name;
 }
 
-void Actor::move_forward()
+i32 Actor::Move_Forward()
 {
-	
-
+	m_position++;
 }
+
+i32 Actor::Move_Backwards()
+{
+	m_position--;
+}
+

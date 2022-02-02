@@ -1,6 +1,7 @@
 #pragma once
 #include "Object.h"
 
+
 class Actor : public Object
 {
 protected:
@@ -11,10 +12,17 @@ public:
 	Actor(i32 position, char* name);
 
 	void print() override;
+
+
+
+	Actor();
+	Actor(i32 position, char* name);
+
+	virtual i32 Move_Forward();
+	virtual i32 Move_Backwards();
+
 };
 
 
-Actor() = default;
-Actor(i32 position, char* name);
 
-void Actor::move_forward();
+

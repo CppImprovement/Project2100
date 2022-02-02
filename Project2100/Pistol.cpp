@@ -1,4 +1,4 @@
-#include "Pistol.h"
+ #include "Pistol.h"
 
 Pistol::Pistol()
 {

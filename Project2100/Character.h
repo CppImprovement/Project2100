@@ -13,8 +13,11 @@ public:
 	Character();
 	Character(i32 health, i32 position, char* name, bool player_respawn, i32 respawn_timer);
 
-	virtual i32 Player_Dead();;
+	virtual i32 Player_Dead();
 	virtual i32 Player_Respawn();
+	virtual void Pick_Up_Weapon();
+
+
 	
 
 

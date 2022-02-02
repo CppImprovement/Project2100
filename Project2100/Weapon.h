@@ -15,6 +15,8 @@ public:
 
 	virtual void fire();
 	virtual void reload();
+	virtual void zoom_in_1();
+	virtual void zoom_in_2();
 	virtual void print_damage();
 	virtual void print_ammo();
 };

@@ -36,3 +36,11 @@ i32 Character::Player_Respawn()
 {
 	bool player_respawn = false;
 }
+
+void Character::Pick_Up_Weapon()
+{
+	// Function to pick up second weapon, or drop current weapon if two rifle slots, or two pistol and one rifle slots are already used.
+}
+{
+
+}

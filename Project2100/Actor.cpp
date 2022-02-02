@@ -21,4 +21,3 @@ i32 Actor::Move_Backwards()
 {
 	m_position--;
 }
-

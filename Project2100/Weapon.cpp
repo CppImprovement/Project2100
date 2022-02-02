@@ -32,3 +32,14 @@ void Weapon::print_ammo()
 {
 	std::cout << m_ammo;
 }
+void Weapon::zoom_in_1()
+{
+// Zooms in 1.5x with the sniper rifle.
+
+
+}
+
+void Weapon::zoom_in_2()
+{
+	// Zooms in 3.0x with the sniper rifle. 
+}

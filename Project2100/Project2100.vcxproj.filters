@@ -45,6 +45,9 @@
     <ClCompile Include="Rockets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CarbineRifle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Types.h">
@@ -78,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Rockets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarbineRifle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

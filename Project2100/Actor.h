@@ -12,3 +12,9 @@ public:
 
 	void print() override;
 };
+
+
+Actor() = default;
+Actor(i32 position, char* name);
+
+void Actor::move_forward();

@@ -3,9 +3,6 @@
 Rockets::Rockets()
 {
 
-protected: 
-
-public: 
 
 
 }

@@ -1,5 +1,7 @@
 #pragma once
 #include "Types.h"
+#include <iostream>
+
 
 // Base Object Class
 class Object 

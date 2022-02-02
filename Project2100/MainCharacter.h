@@ -9,6 +9,7 @@ protected:
 
 public: 
 
-
+	MainCharacter();
+	MainCharacter(i32 health, i32 position, char* name);
 
 };

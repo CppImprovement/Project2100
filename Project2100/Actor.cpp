@@ -11,3 +11,9 @@ void Actor::print()
 {
 	std::cout << m_name;
 }
+
+void Actor::move_forward()
+{
+	
+
+}

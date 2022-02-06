@@ -1,28 +1,18 @@
 #pragma once
 #include "Object.h"
 
-
 class Actor : public Object
 {
 protected:
 	i32 m_position = 0;
-
+	i32 m_move_speed = 1;
+	
 public:
 	Actor() = default;
-	Actor(i32 position, char* name);
+	Actor(i32 position, const char* name);
 
 	void print() override;
 
-
-
-	Actor();
-	Actor(i32 position, char* name);
-
-	virtual i32 Move_Forward();
-	virtual i32 Move_Backwards();
-
+	virtual void Move_Forward();
+	virtual void Move_Backwards();
 };
-
-
-
-

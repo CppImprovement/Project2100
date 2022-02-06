@@ -145,11 +145,11 @@
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainCharacter.cpp" />
+    <ClCompile Include="MainOpponent.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Pistol.cpp" />
     <ClCompile Include="Rockets.cpp" />
     <ClCompile Include="Shotgun.cpp" />
-    <ClCompile Include="Sniper.cpp" />
     <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>

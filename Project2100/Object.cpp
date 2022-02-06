@@ -2,11 +2,10 @@
 
 Object::Object()
 {
-	// m_name = "DefaultObjectName";
-	m_name = name;
+	m_name = "DefaultObjectName";
 }
 
-Object::Object(char* name)
+Object::Object(const char* name)
 {
 	m_name = name;
 }

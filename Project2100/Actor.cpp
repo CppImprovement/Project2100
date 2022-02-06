@@ -1,23 +1,22 @@
 #include "Actor.h"
 #include <iostream>
 
-Actor::Actor(i32 position, char* name) : Object(name)
+Actor::Actor(i32 position, const char* name) : Object(name)
 {
   m_position = position;
-  m_name = name;
 }
 
 void Actor::print()
 {
-	std::cout << m_name;
+	std::cout << "Actor named: " << m_name << '\n';
 }
 
-i32 Actor::Move_Forward()
+void Actor::Move_Forward()
 {
 	m_position++;
 }
 
-i32 Actor::Move_Backwards()
+void Actor::Move_Backwards()
 {
 	m_position--;
 }

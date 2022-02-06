@@ -4,11 +4,15 @@ CarbineRifle::CarbineRifle()
 {
 	m_damage = 25;
 	m_max_ammo = 20;
+}
 
+void CarbineRifle::print()
+{
 
 }
 
-void zoom_in_carbine()
+void CarbineRifle::zoom()
 {
 	// Zoom in 2.0x
 }
+

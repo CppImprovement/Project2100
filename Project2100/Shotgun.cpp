@@ -1,6 +1,5 @@
 #include "Shotgun.h"
 
-
 Shotgun::Shotgun()
 {
 	m_damage = 70;

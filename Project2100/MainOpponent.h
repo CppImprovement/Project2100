@@ -6,7 +6,8 @@ class MainOpponent : public Character
 {
 protected: 
 
-public: 
+public:
+	MainOpponent(i32 max_health, i32 position, const char* name);
 
-
+	void print() override;
 };

@@ -33,9 +33,6 @@
     <ClCompile Include="Pistol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sniper.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="Shotgun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -46,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CarbineRifle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainOpponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

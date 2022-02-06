@@ -1,15 +1,14 @@
 #pragma once
 #include "Character.h"
 
-// The class for the main character in 2100. 
+// The class for the main character in 2100.
 class MainCharacter : public Character
 {
 protected: 
-
-
+	
 public: 
+	MainCharacter() = default;
+	MainCharacter(i32 max_health, i32 position, const char* name);
 
-	MainCharacter();
-	MainCharacter(i32 health, i32 position, char* name);
-
+	void print() override;
 };

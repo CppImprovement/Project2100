@@ -11,12 +11,7 @@ void Actor::print()
 	std::cout << "Actor named: " << m_name << '\n';
 }
 
-void Actor::Move_Forward()
+void Actor::move(i32 distance)
 {
-	m_position++;
-}
-
-void Actor::Move_Backwards()
-{
-	m_position--;
+	m_position += distance;
 }

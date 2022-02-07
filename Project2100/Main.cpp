@@ -6,7 +6,7 @@
 
 static void PushActorBackward(Actor* actor)
 {
-	actor->Move_Backwards();
+	actor->move(-50);
 }
 
 static void PrintObjects(Object** objArray, i32 numberOfObjects)

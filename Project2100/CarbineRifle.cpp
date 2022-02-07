@@ -15,4 +15,3 @@ void CarbineRifle::zoom()
 {
 	// Zoom in 2.0x
 }
-

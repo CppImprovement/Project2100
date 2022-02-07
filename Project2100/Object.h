@@ -1,18 +1,16 @@
 #pragma once
 #include "Types.h"
-#include <iostream>
 
 // Base Object Class
-class Object 
+class Object
 {
-protected: 
+protected:
 	const char* m_name;
 
-public: 
+public:
 	Object();
 	Object(const char* name);
 	virtual ~Object() = default;
 
 	virtual void print();
 };
-

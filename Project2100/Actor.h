@@ -13,6 +13,5 @@ public:
 
 	void print() override;
 
-	virtual void Move_Forward();
-	virtual void Move_Backwards();
+	virtual void move(i32 distance);
 };

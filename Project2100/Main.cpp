@@ -4,6 +4,11 @@
 #include "MainOpponent.h"
 #include <iostream>
 
+
+//char board[3][3] = { '1', '2', '3' }, { '4', '5', '6', }, { '7', '8', '9' };
+
+char board[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+
 static void PushActorBackward(Actor* actor)
 {
 	actor->move(-50);

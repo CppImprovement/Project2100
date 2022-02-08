@@ -16,5 +16,4 @@ public:
 	virtual void fire();
 	virtual void reload();
 	virtual void zoom();
-	void print() override;
 };

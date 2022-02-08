@@ -49,3 +49,10 @@ void Character::spawn()
 {
 	m_health = m_max_health;
 }
+
+void Character::print()
+{
+	std::cout << "Character named: " << m_name << '\n';
+	std::cout << "Health: " << m_health << '\n';
+	std::cout << "Position: " << m_position << "\n\n";
+}

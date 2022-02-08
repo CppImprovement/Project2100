@@ -11,7 +11,5 @@ public:
 	Actor() = default;
 	Actor(i32 position, const char* name);
 
-	void print() override;
-
 	virtual void move(i32 distance);
 };

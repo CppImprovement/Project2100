@@ -17,4 +17,6 @@ public:
 	virtual void die();
 	virtual void Pick_Up_Weapon();
 	virtual void spawn();
+
+	void print() override;
 };

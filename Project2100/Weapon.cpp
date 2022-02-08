@@ -27,10 +27,3 @@ void Weapon::zoom()
 {
 	// Sets zoom
 }
-
-void Weapon::print()
-{
-	std::cout << "Weapon Type: " << m_name << '\n';
-	std::cout << "Damage: " << m_damage << '\n';
-	std::cout << "Ammo: " << m_ammo << '\n';
-}

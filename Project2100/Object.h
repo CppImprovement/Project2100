@@ -12,5 +12,5 @@ public:
 	Object(const char* name);
 	virtual ~Object() = default;
 
-	virtual void print();
+	virtual void print() = 0;
 };
